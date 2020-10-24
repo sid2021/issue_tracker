@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#wrapper {
+  margin: 15px;
+  max-width: 800px;
+}
+
+.issue {
+  margin: 20px;
+  padding: 5px;
+  width: 60%;
+  border: 2px solid black;
+}
+
+.closed {
+  background-color: lightgrey;
+}
+
+.id {
+  font-size: 10.5px;
+}
+
+code {
+  background: #dfe6e9;
+  padding: 1px;
+  margin-top: 10px;
+  color: black;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #a55eea;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+label {
+  align-self: 5px;
+}
